@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
+    "normalize-scss": "^8.0.0",
     "sass": "^1.87.0",
     "vue": "^3.5.13"
   },

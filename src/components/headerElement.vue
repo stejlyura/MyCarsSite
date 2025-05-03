@@ -14,11 +14,13 @@
 
 <style scoped lang="scss">
     .header_top {
+        background-color: rgb(49, 49, 51);
         width: 100%;
         height: 40px;
         display: flex;
         justify-content: space-between;
         text-align: center;
+        color: aliceblue    ;
         h1{
             margin-left: 20px;
         }
