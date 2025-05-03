@@ -3,12 +3,18 @@
 </script>
 
 <template>
-    <div v-for="(value, key) in CarsMass" class="car_card">
-        <h1>{{ CarsMass.brend }}</h1>
+    <div class="mainBody">
+        <div v-for="(car, index) in CarsMass" :key="index" class="car_card">
+            <div class="carCard">
+                <h1>{{ car.brend }}</h1>
+                <p>{{ car.model }}</p>
+                <h2>{{ car.color }}</h2>
+                <h3>{{ car.price }}</h3>
+            </div>
+        </div>
     </div>
-    <h1>{{ CarsMass }}</h1>
 </template>
 
 <style scoped lang="scss">
-
+    @import './assets/carCard.scss';
 </style>
