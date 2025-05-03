@@ -19,10 +19,14 @@
         display: flex;
         justify-content: space-between;
         text-align: center;
+        h1{
+            margin-left: 20px;
+        }
         ul{
             display: flex;
             text-align: center;
             align-items: center;
+            margin-right: 20px;
             li{
                 text-align: center;
                 list-style: none;
