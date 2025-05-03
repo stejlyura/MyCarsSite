@@ -1,7 +1,6 @@
 <script setup lang="ts">
     import { CarsMass } from "./typescript_code/base.ts";
     import headerElement from "./components/headerElement.vue";
-    import "normalize-scss"
 </script>
 
 <template>
