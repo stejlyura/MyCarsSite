@@ -1,8 +1,12 @@
 <script setup lang="ts">
     import { CarsMass } from "./typescript_code/base.ts";
+    import headerElement from "./components/headerElement.vue";
 </script>
 
 <template>
+    <header>
+        <headerElement></headerElement>
+    </header>
     <div class="mainBody">
         <div v-for="(car, index) in CarsMass" :key="index" class="car_card">
             <div class="carCard">
