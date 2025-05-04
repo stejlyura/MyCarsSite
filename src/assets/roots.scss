@@ -4,7 +4,6 @@
     --white: #FFFFFF;
     --smoke-grey: #E5E5E5;
     --Anthracite: #1C1C1C;
-
 }
 
 @font-face {
@@ -20,4 +19,9 @@
 @font-face {
     font-family: "PlayfairDisplay";
     src: url(../fonts/PlayfairDisplay.ttf);
+}
+
+@mixin body-gradient{
+background: #000000;
+background: linear-gradient( 155deg, rgba(0, 0, 0, 1) 0%, rgba(61, 58, 45, 1) 58%, rgba(255, 215, 0, 1) 100%) no-repeat;
 }

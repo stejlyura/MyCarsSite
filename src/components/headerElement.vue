@@ -2,9 +2,9 @@
 
 <template>
     <div class="header_top">
-        <h1>GetCars</h1>
+        <h1 class="logoText">Get premium Cars</h1>
         <ul>
-            <li>About Us</li>
+            <li>About us</li>
             <li>Lease</li>
             <li>Rent</li>
             <li>Tradde in</li>
@@ -14,22 +14,27 @@
 
 <style scoped lang="scss">
     .header_top {
-        background-color: rgb(49, 49, 51);
         width: 100%;
-        height: 40px;
+        height: auto;
         display: flex;
         justify-content: space-between;
         text-align: center;
-        color: aliceblue    ;
-        h1{
-            margin-left: 20px;
+        color: aliceblue;
+        flex-direction: column-reverse;
+        .logoText{
+            margin-top:  30px;
+            font-family: PlayfairDisplay;
+            font-size: 3rem;
         }
         ul{
+            padding-top: 30px;
             display: flex;
+            justify-content: center;
             text-align: center;
             align-items: center;
-            margin-right: 20px;
             li{
+                font-size: 1.1rem;
+                font-family: PlayfairDisplay;
                 text-align: center;
                 list-style: none;
                 &:nth-last-child(-n + 3):not(:first-child) {

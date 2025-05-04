@@ -11,9 +11,3 @@ html, body {
 body {
     background-color: var(--main-color);
 }
-
-.mainBody {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(2, auto);
-}
